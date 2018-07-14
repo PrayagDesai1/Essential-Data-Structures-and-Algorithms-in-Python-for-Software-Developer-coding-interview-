@@ -1,5 +1,6 @@
 """  delete(index) - delete item at index, shifting all trailing elements left """
 
+
 class Array(object):
     
     def __init__(self):
@@ -26,6 +27,6 @@ array = Array()
 array.insert_at_end(1)
 array.insert_at_end(2)
 array.insert_at_end(3)
-array.delete_at_perticular_position(2)
+array.delete_at_perticular_position(0)
 array.delete_at_perticular_position(22)
 array.display()
